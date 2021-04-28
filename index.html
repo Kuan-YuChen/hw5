@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+
+	    <style>
+         body {
+            height:3000px;
+         }
+         .drangon-ball-char {
+            z-index: 10;
+            position: absolute;
+         }
+
+          #bg-block {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 0;
+            min-width: 100%;
+            min-height: 100%;
+            background: url('images/01.jpg') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -webkit-filter: blur(5px);
+         }
+      </style>
+     
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+   />
+
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+	   <script src="js/skrollr.min.js"></script>
+   
+ </head>
+
+<body>
+ <div id="bg-block">
+      </div>
+	  
+ <div class="drangon-ball-char" style="top:150px;width:100%;text-align:center">
+         <img src="images/title.png" style="width: 400px; opacity: 1; -webkit-filter: blur(0px);" data-0="opacity: 1;-webkit-filter: blur(0px);" data-100="opacity: 0.5;-webkit-filter: blur(5px);" class="skrollable skrollable-between">
+
+      </div>
+	  
+      <div class="drangon-ball-char" style="top:300px;width:100%;text-align:center">
+         <img src="images/sad.png" style="width:550px; opacity: 1; -webkit-filter: blur(0px);" data-100="opacity: 0;-webkit-filter: blur(5px);" data-250="opacity: 1;-webkit-filter: blur(0px);" class="skrollable skrollable-before">
+      </div>
+      <div class="drangon-ball-char flash" style="top:800px;width:100%;text-align:center">
+         <img src="images/name-1.png" style="width:250px; opacity: 1; -webkit-filter: blur(0px);" data-200="opacity: 0;-webkit-filter: blur(5px);" data-400="opacity: 1;-webkit-filter: blur(0px);" class="skrollable skrollable-before">
+      </div>
+      <div class="drangon-ball-char flash" style="top:1000px;width:100%;text-align:center">
+         <img src="images/sensi.png" style="width:400px; opacity: 1; -webkit-filter: blur(0px);" data-300="opacity: 0;-webkit-filter: blur(5px);" data-800="opacity: 1;-webkit-filter: blur(0px);" class="skrollable skrollable-before">
+      </div>
+      <div class="drangon-ball-char flash" style="top:1550px;width:100%;text-align:center">
+         <img src="images/name-2.png" style="width:150px; opacity: 1; -webkit-filter: blur(0px);" data-400="opacity: 0;-webkit-filter: blur(5px);" data-1000="opacity: 1;-webkit-filter: blur(0px);" class="skrollable skrollable-before">
+      </div>
+      <div class="drangon-ball-char flash" style="top:1800px;width:100%;text-align:center">
+         <img src="images/hug.png" style="width:400px; opacity: 0; -webkit-filter: blur(5px);" data-1000="opacity: 0;-webkit-filter: blur(5px);" data-1600="opacity: 1;-webkit-filter: blur(0px);" class="skrollable skrollable-before">
+      </div>
+      <div class="drangon-ball-char flash" style="top:2370px;width:100%;text-align:center">
+         <img src="images/name-4.png" style="width:400px; opacity: 0; -webkit-filter: blur(5px);" data-1000="opacity: 0;-webkit-filter: blur(5px);" data-1800="opacity: 1;-webkit-filter: blur(0px);" class="skrollable skrollable-before">
+      </div>
+      <div class="drangon-ball-char" style="top:2900px;width:100%;text-align:center">
+         <img src="images/last.png" style="width: 500px; opacity: 0; -webkit-filter: blur(5px);" data-2600="opacity: 0;-webkit-filter: blur(5px);" data-2800="opacity: 1;-webkit-filter: blur(0px);" class="skrollable skrollable-before">
+      </div>
+      <div class="drangon-ball-char" style="top:3000px;width:100%;text-align:center">
+         <img src="images/bike.png" style="width: 500px; opacity: 0; -webkit-filter: blur(5px);" data-2700="opacity: 0;-webkit-filter: blur(5px);" data-2900="opacity: 1;-webkit-filter: blur(0px);" class="skrollable skrollable-before">
+      </div>
+      <script type="text/javascript">
+      var skrollr_obj = skrollr.init();
+      </script>
+   
+</body>
+</html>
